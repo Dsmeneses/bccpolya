@@ -18,10 +18,10 @@ int main(){
 double raiz_quadrada (double numero){
 
     int n;
-    double recorre = numero;
+    double a = numero;
     
     for (n = 0; n < 10; ++n)
-          recorre = recorre/2 + numero/(2*recorre);
+          a = a/2 + numero/(2*a);
             
-    return(recorre);    
+    return(a);    
 }   
